@@ -1,0 +1,33 @@
+{
+  "name": "Larevion Technologies | Backend, API & Data Engineering",
+  "short_name": "LAREVION",
+  "description": "Dependable backend systems, APIs, integrations, and data platforms from Larevion Technologies.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "display": "standalone",
+  "background_color": "#101D38",
+  "theme_color": "#101D38",
+  "icons": [
+    {
+      "src": "/favicon-larevion.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-qy-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-qy-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

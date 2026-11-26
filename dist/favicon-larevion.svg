@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Larevion Technologies</title>
+  <desc id="desc">Larevion Technologies red and cloud software mark on a Midnight Navy field.</desc>
+  <defs>
+    <linearGradient id="red" x1="86" y1="114" x2="398" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E52D35"/>
+      <stop offset="1" stop-color="#E52D35" stop-opacity=".78"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="126" fill="#101D38"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#65738A" stroke-opacity=".62" stroke-width="8"/>
+  <path d="M136 137 201 100v149l-65 55Z" fill="url(#red)"/>
+  <path d="m136 304 65-55h205l-68 56H136Z" fill="#E52D35"/>
+  <path d="M52 326c-32 64-5 98 50 88 26-5 57-19 92-40" fill="none" stroke="#E52D35" stroke-linecap="round" stroke-width="28"/>
+  <path d="M194 374c27-15 57-31 86-49" fill="none" stroke="#F5F7FA" stroke-linecap="round" stroke-width="24"/>
+  <path d="M220 123c62-47 132-55 165-22 35 35 20 91-18 148" fill="none" stroke="#F5F7FA" stroke-linecap="round" stroke-width="26"/>
+  <path d="m221 191-36 31 36 30m75-61 36 31-36 30m-28-70-22 80" fill="none" stroke="#F5F7FA" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+</svg>

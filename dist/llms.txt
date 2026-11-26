@@ -1,0 +1,46 @@
+# LAREVION TECHNOLOGIES
+
+> Larevion Technologies is a software engineering company building dependable backend systems, APIs, integrations, and data platforms for organizations that need practical technology.
+
+## Primary services
+
+- Backend development: maintainable server-side systems, business logic, authentication boundaries, and operational workflows.
+- API development: REST APIs, integrations, webhooks, service boundaries, and reliable data exchange.
+- Database design: relational data models, migrations, query design, Redis-backed workflows, and data integrity.
+
+## Technical focus
+
+Larevion works with Laravel and PHP, Java and Spring Boot, MySQL, Redis, REST APIs, AWS services, integrations, and application engineering practices shaped around the product need.
+
+## Useful pages
+
+- Home: https://legion91.netlify.app/
+- Services: https://legion91.netlify.app/services
+- Technologies: https://legion91.netlify.app/technologies
+- Project examples: https://legion91.netlify.app/projects
+- Technical knowledge center: https://legion91.netlify.app/articles
+- Careers: https://legion91.netlify.app/careers
+- FAQ: https://legion91.netlify.app/faq
+- Contact and project enquiry: https://legion91.netlify.app/contact
+- Privacy Policy: https://legion91.netlify.app/privacy-policy
+- Terms & Conditions: https://legion91.netlify.app/terms-conditions
+- Cookie Policy: https://legion91.netlify.app/cookie-policy
+- Sitemap: https://legion91.netlify.app/sitemap
+
+## Technical knowledge center
+
+The site publishes practical engineering notes on validating API requests at the boundary, making webhook handling safe to retry, choosing database indexes from real queries, authorizing resource access, and making integration failures diagnosable.
+
+## Enquiry guidance
+
+For a useful enquiry, include the product context, current challenge, desired outcome, current stack, constraints, and timeline. The project estimator and smart contact form can prepare an indicative planning brief; pricing is confirmed after scope review.
+
+The home page also includes the Larevion Signal Room, an interactive diagnostic that helps visitors describe scattered workflows, slow systems, unclear data, or a new product direction. Its selected starting point can be carried into the contact brief.
+
+Visitors can also choose a route for clients, developers, or general company exploration. Client journeys lead to the Signal Room and enquiry form; developer journeys lead to the technology stack, engineering notes, and talent network; general visitors can explore the company, working principles, and FAQ.
+
+The hero can be viewed through four audience lenses—business leaders, product teams, developers, and operations teams—so the lead message and priorities match the visitor's context.
+
+## Content guidance
+
+The website describes capabilities and representative project patterns. It does not claim client results or guarantees that are not explicitly documented. For current scope, availability, and fit, contact Larevion directly.
