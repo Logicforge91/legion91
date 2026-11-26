@@ -1,0 +1,87 @@
+.skills-section { position: relative; }
+
+.skills-section .section-heading .eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border: 1px solid color-mix(in srgb, var(--accent) 26%, var(--line));
+  border-radius: 4px;
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent) 6%, var(--panel));
+  font-size: .59rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.skills-section .section-heading .eyebrow::before {
+  color: var(--accent);
+  content: "FIELD KIT /";
+  font-size: .53rem;
+}
+
+.skills-section .section-heading .eyebrow span { width: 5px; height: 5px; border-radius: 1px; background: var(--accent); }
+
+.toolkit-board-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 30px 0 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font: .58rem var(--font-mono);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.toolkit-board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+
+.toolkit-card {
+  position: relative;
+  display: grid;
+  min-width: 0;
+  min-height: 252px;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 20px;
+  overflow: hidden;
+  padding: clamp(18px, 2.2vw, 26px);
+  border: 1px solid var(--line);
+  border-radius: 5px 15px 15px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent-2) 5%, var(--card)), var(--card) 56%);
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.toolkit-card::after {
+  position: absolute;
+  right: 12px;
+  bottom: -20px;
+  color: color-mix(in srgb, var(--text) 4%, transparent);
+  content: attr(data-index);
+  font: 600 7rem/.9 var(--font-heading);
+  letter-spacing: -.1em;
+  pointer-events: none;
+}
+
+.toolkit-card:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--accent-2) 35%, var(--line)); background: linear-gradient(145deg, color-mix(in srgb, var(--accent-2) 9%, var(--card)), var(--card) 62%); }
+.toolkit-card__header { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--accent-2); font: .57rem var(--font-mono); letter-spacing: .08em; }
+.toolkit-card__header i { display: grid; width: 38px; height: 38px; place-items: center; border: 1px solid color-mix(in srgb, var(--accent-2) 24%, var(--line)); border-radius: 9px; color: var(--accent-2); background: color-mix(in srgb, var(--accent-2) 8%, transparent); font-size: 1rem; }
+.toolkit-card h3 { max-width: 20ch; align-self: end; color: var(--text); font: 600 clamp(1.15rem, 1.6vw, 1.45rem)/1.2 var(--font-heading); letter-spacing: -.025em; }
+.toolkit-card p { max-width: 48ch; color: var(--muted); font-size: .78rem; line-height: 1.7; }
+.toolkit-card__footer { position: relative; z-index: 1; color: var(--muted); font: .5rem var(--font-mono); letter-spacing: .12em; }
+
+@media (max-width: 920px) {
+  .toolkit-board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  .toolkit-board-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
+  .toolkit-board { grid-template-columns: 1fr; }
+  .toolkit-card { min-height: 215px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toolkit-card { transition: none; }
+}
